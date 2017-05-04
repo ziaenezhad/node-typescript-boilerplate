@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"inlineSourceMap": true,
+		"sourceRoot": "./src",
+		"declaration": true,
+		"target": "es6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"outDir": "dist/",
+		"typeRoots": [
+			"./node_modules/@types/**/*.d.ts",
+			"src/**/*.d.ts"
+		],
+		"types": [
+			"node"
+		]
+	},
+	"exclude": [
+		"node_modules"
+	]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "node-typescript-boilerplate",
+  "description": "a boilerplate for typescript coding in Visual Studio code",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajjad-shirazy/node-typescript-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sajjad-shirazy/node-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sajjad-shirazy/node-typescript-boilerplate#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-tsb": "^2.0.3",
+    "typescript": "^2.3.2"
+  }
+}
